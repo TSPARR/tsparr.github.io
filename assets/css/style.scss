@@ -1,0 +1,15 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+.site-footer .footer-col-wrapper {
+  justify-content: center;
+  text-align: center;
+}
+
+.site-footer .footer-col {
+  width: auto;
+  float: none;
+}
