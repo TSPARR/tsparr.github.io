@@ -1,6 +1,8 @@
 title: TSPARR Tech Thoughts
 description: My thoughts on MacAdmin work and how it relates to infrastructure, automation, and DevOps
-author: Tyler Sparr
+author:
+  name: Tyler Sparr
+  github: tsparr
 
 # Build settings
 remote_theme: jekyll/minima
@@ -8,9 +10,6 @@ plugins:
   - jekyll-remote-theme
 minima:
   skin: dark
-  social_links:
-    - platform: github
-      user_url: "https://github.com/tsparr"
 
 # Permalink structure
 permalink: /:title/
