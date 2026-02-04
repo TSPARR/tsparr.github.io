@@ -3,7 +3,9 @@ description: My thoughts on MacAdmin work and how it relates to infrastructure, 
 author: Tyler Sparr
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
 minima:
   skin: dark
   social_links:
